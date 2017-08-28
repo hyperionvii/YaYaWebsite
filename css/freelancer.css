@@ -87,6 +87,8 @@ hr {
 
 #tinyText {
   color: black;
+  font-size: 12px;
+  float: right;
 }
 
 .parallax { 
