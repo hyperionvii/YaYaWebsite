@@ -7,7 +7,7 @@
   font-family: 'SeaSalt';
   src: url('../img/font/sea salt.otf');
   font-family: 'MoonShine-regular';
-  src: url('../img/font/Moonshine-regular.otf')
+  src: url('../img/font/Moonshine-Regular.otf')
 }
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -91,7 +91,7 @@ hr {
 
 .parallax { 
     /* The image used */
-    background-image: url('../img/flowersRed.jpg');
+    background-image: url('../img/glen-carrie-2092.jpg');
 
     /* Set a specific height */
     height: 100%; 
@@ -116,6 +116,11 @@ img {
 {
   padding-right: 50px;
 
+}
+
+#cardImage{
+  height: 400px;
+  width: 400px;
 }
 #aboutdiv {
   padding-top: 35px;
@@ -167,6 +172,9 @@ section.success {
     font-family: 'MoonShine-regular';
     text-shadow: 2px 2px 1px black;
     -webkit-font-smoothing: antialiased;
+    outline: white solid thick;
+    padding: 10px;
+    line-height: 25px
 }
     #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:active, #mainNav .navbar-brand.active {
       color: white; }
